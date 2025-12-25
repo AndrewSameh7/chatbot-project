@@ -1,0 +1,13 @@
+# GUI
+#tk  # Tkinter usually comes with Python, for reference
+
+# Optional for web GUI
+gradio==3.45.0
+
+# Optional for NLP upgrades (if using Transformers / BERT)
+torch>=2.1.0
+transformers>=4.40.0
+
+# Common packages
+numpy>=1.25.0
+pandas>=2.1.0
