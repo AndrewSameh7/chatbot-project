@@ -28,23 +28,37 @@ AI Roadmap Mentor Bot is a desktop chatbot with a GUI that guides users through 
 
 D:.
 │ app.py
+
 │ README.md
+
 │ requirements.txt
-│
+
+
 ├───chatbot
+
 │ handler.py
+
 │ metrics.py
+
 │ nlp.py
+
 │ personality.py
+
 │ rules.py
+
 │ init.py
-│
+
 ├───data
+
 │ intents.json
+
 │ roadmaps.json
-│
+
+
 └───docs
+
 architecture.md
+
 design.md
 
 
@@ -53,36 +67,39 @@ design.md
 
 1. Clone the repository:
 
-git clone <repo_link>
+git clone <https://github.com/AndrewSameh7/chatbot-project.git>
 
 cd chatbot-project
 
-Create and activate a virtual environment:
+
+2.Create and activate a virtual environment:
 
 python -m venv venv
 
 .\venv\Scripts\Activate.ps1  # Windows
 
-# source venv/bin/activate   # Linux/Mac
+ source venv/bin/activate   # Linux/Mac
 
-Install dependencies:
+
+3.Install dependencies:
 
 pip install --upgrade pip
 
 pip install -r requirements.txt
 
-Usage
 
-Run the chatbot:
+## Usage
 
-python app.py
+1.Run the chatbot:
 
-Type messages or use the level buttons (Beginner, Intermediate, Advanced)
+      python app.py
 
-Chat responses appear in the GUI
+2.Type messages or use the level buttons (Beginner, Intermediate, Advanced)
 
-Type exit, quit, or close the window → metrics report saved automatically
+3.Chat responses appear in the GUI
 
-License
+4.Type exit, quit, or close the window → metrics report saved automatically
+
+## License
 
 This project is licensed under the MIT License. See LICENSE for details.
