@@ -26,7 +26,7 @@ AI Roadmap Mentor Bot is a desktop chatbot with a GUI that guides users through 
 
 ## Project Structure
 
-D:.
+
 │ app.py
 
 │ README.md
