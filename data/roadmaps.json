@@ -1,0 +1,162 @@
+{
+  "Beginner": {
+    "description": "Users with basic Python knowledge, no AI/ML experience.",
+    "topics": [
+      {
+        "name": "Python Basics",
+        "subtopics": [
+          "Variables, Data Types, Operators",
+          "Loops and Conditional Statements",
+          "Functions and Modules",
+          "File Handling",
+          "Error Handling",
+          "Object-Oriented Programming Basics"
+        ],
+        "study_method": "Watch tutorials, read official Python docs, practice exercises daily.",
+        "projects": [
+          "Simple Calculator CLI",
+          "Text-based To-Do App",
+          "CSV Data Analysis Project",
+          "Mini Quiz Game"
+        ]
+      },
+      {
+        "name": "Mathematics for AI",
+        "subtopics": [
+          "Linear Algebra: Vectors, Matrices, Operations",
+          "Probability & Statistics Basics",
+          "Descriptive Statistics and Visualization",
+          "Basic Calculus Concepts"
+        ],
+        "study_method": "Follow online courses, solve example problems, apply concepts in Python.",
+        "projects": [
+          "Matrix Operations CLI",
+          "Probability Simulations",
+          "Data Visualization with Matplotlib/Seaborn"
+        ]
+      }
+    ],
+    "next_steps": "Complete all topics and projects to move to Intermediate level: ML basics, simple DL, and project-based practice."
+  },
+  "Intermediate": {
+    "description": "Users with Python proficiency ready for Machine Learning and Deep Learning fundamentals.",
+    "topics": [
+      {
+        "name": "Machine Learning Fundamentals",
+        "subtopics": [
+          "Regression, Classification, Clustering",
+          "Scikit-Learn Basics",
+          "Feature Engineering & Preprocessing",
+          "Model Evaluation Metrics"
+        ],
+        "study_method": "Mix theory + hands-on exercises, implement algorithms from scratch and using libraries.",
+        "projects": [
+          "Iris Dataset Classification",
+          "Titanic Survival Prediction",
+          "Customer Segmentation using Clustering"
+        ]
+      },
+      {
+        "name": "Deep Learning Basics",
+        "subtopics": [
+          "Neural Networks Fundamentals",
+          "TensorFlow/PyTorch basics",
+          "Forward and Backpropagation",
+          "Training, Validation, Testing Models"
+        ],
+        "study_method": "Follow tutorials, implement small neural networks, train on MNIST and other datasets.",
+        "projects": [
+          "MNIST Digit Classification",
+          "Basic Image Recognition Project",
+          "Simple Chatbot Prototype"
+        ]
+      },
+      {
+        "name": "Intermediate Self-Practice",
+        "subtopics": [
+          "Participate in small Kaggle competitions",
+          "Practice solving end-to-end ML problems",
+          "Document learning and projects"
+        ],
+        "study_method": "Combine mini-projects and real datasets for hands-on experience.",
+        "projects": [
+          "House Price Prediction Project",
+          "Stock Price Prediction Mini Project",
+          "ML Workflow Documentation"
+        ]
+      }
+    ],
+    "next_steps": "After mastering ML and DL fundamentals, move to Advanced level: CV, NLP, RL, and portfolio building."
+  },
+  "Advanced": {
+    "description": "Users ready for specialization but may still want to consolidate skills.",
+    "topics": [
+      {
+        "name": "Computer Vision (CV)",
+        "subtopics": [
+          "CNN Architectures (LeNet, VGG, ResNet)",
+          "Object Detection (YOLO, SSD, Faster-RCNN)",
+          "Image Segmentation (U-Net, Mask R-CNN)",
+          "Advanced Data Augmentation",
+          "Transfer Learning & Fine-Tuning"
+        ],
+        "study_method": "Work on real datasets, implement end-to-end projects, explore pretrained models.",
+        "projects": [
+          "Custom Image Classification",
+          "Face Detection App",
+          "Segmentation on Medical Images",
+          "Real-Time Object Detection App"
+        ]
+      },
+      {
+        "name": "Natural Language Processing (NLP)",
+        "subtopics": [
+          "RNNs, LSTMs",
+          "Transformers, BERT, GPT",
+          "Text Classification, Summarization, Sentiment Analysis",
+          "Tokenization & Preprocessing Pipelines"
+        ],
+        "study_method": "Build models on text datasets, implement preprocessing pipelines, fine-tune transformers.",
+        "projects": [
+          "Sentiment Analysis",
+          "Text Summarization",
+          "Named Entity Recognition",
+          "Custom Chatbot with Transformer"
+        ]
+      },
+      {
+        "name": "Reinforcement Learning (RL) Basics",
+        "subtopics": [
+          "Markov Decision Processes (MDP)",
+          "Q-Learning & Deep Q-Networks",
+          "Policy Gradients",
+          "Gym Environment Projects"
+        ],
+        "study_method": "Experiment with RL environments, implement basic agents, analyze performance.",
+        "projects": [
+          "CartPole Balancing Agent",
+          "GridWorld Solver",
+          "RL-based Simple Game Agent"
+        ]
+      },
+      {
+        "name": "Advanced Practice & Portfolio Building",
+        "subtopics": [
+          "Optimization Techniques",
+          "Hyperparameter Tuning",
+          "Model Deployment (Flask/FastAPI)",
+          "Participate in Competitions",
+          "Reading Research Papers"
+        ],
+        "study_method": "Iterate on projects, deploy models, document work, continuously refine skills.",
+        "projects": [
+          "Deploy DL Model as API",
+          "Participate in Kaggle Competition",
+          "Replicate Research Paper Project",
+          "Build Specialized Portfolio Project"
+        ]
+      }
+    ],
+    "next_steps": "Keep iterating and improving skills, specialize in one subfield (CV/NLP/RL), build portfolio and real-world applications."
+  }
+}

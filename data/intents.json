@@ -1,0 +1,125 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening", "مرحبا", "أهلا", "صباح الخير", "مساء الخير"],
+      "responses": [
+        "Hello! I'm your AI Roadmap Mentor. What is your current AI level? Beginner, Intermediate, or Advanced?",
+        "Hi there! Tell me your AI experience level so I can prepare a roadmap for you.",
+        "Hey! Ready to plan your AI learning journey? What is your current level?",
+        "مرحبًا! أنا مرشدك لتعلم الذكاء الاصطناعي. ما هو مستواك الحالي؟ مبتدئ، متوسط، أم متقدم؟",
+        "أهلا! من فضلك أخبرني بمستواك الحالي في AI لأعطيك خطة مفصلة."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "مع السلامة", "إلى اللقاء", "أراك لاحقًا"],
+      "responses": [
+        "Good luck on your AI journey! Keep practicing and learning.",
+        "See you soon! Remember, consistency is key in AI learning.",
+        "Farewell! Don’t forget to apply what you learned in projects.",
+        "حظًا موفقًا في رحلتك لتعلم الذكاء الاصطناعي!",
+        "إلى اللقاء! استمر في التعلم وتطبيق المشاريع العملية."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "شكراً", "ممتن لك", "جزاك الله خيراً"],
+      "responses": [
+        "You're welcome! Keep going with your AI journey.",
+        "No problem! Keep practicing and building projects.",
+        "Anytime! Remember, hands-on practice is key.",
+        "على الرحب والسعة! استمر في التعلم والمشاريع العملية.",
+        "لا شكر على واجب! استمر في تطبيق ما تعلمته."
+      ]
+    },
+    {
+      "tag": "level_beginner",
+      "patterns": ["I am a beginner", "My level is beginner", "Beginner", "I just started AI", "I'm new to AI", "أنا مبتدى", "مستواي مبتدى", "بدأت للتو"],
+      "responses": [
+        "Great! I will give you a detailed Beginner roadmap with topics, study methods, and projects.",
+        "Awesome! Let's start your AI journey from the Beginner level.",
+        "Perfect! I have a step-by-step plan for Beginner learners.",
+        "رائع! سأعطيك خطة مفصلة للمستوى المبتدئ تشمل الموضوعات، طريقة الدراسة، والمشاريع العملية.",
+        "ممتاز! إليك خطوات عملية للمرحلة المبتدئة لتتعلم وتطبق المشاريع."
+      ]
+    },
+    {
+      "tag": "level_intermediate",
+      "patterns": ["I am intermediate", "My level is intermediate", "Intermediate", "I know some ML", "I have basic DL experience", "أنا متوسط", "مستواي متوسط", "لدي خبرة بسيطة في ML"],
+      "responses": [
+        "Awesome! I will give you a detailed Intermediate roadmap with topics, study methods, and projects.",
+        "Great! Let's enhance your ML and DL knowledge at the Intermediate level.",
+        "Perfect! I have a structured plan for Intermediate learners.",
+        "ممتاز! سأعطيك خطة مفصلة للمستوى المتوسط تشمل الموضوعات، طريقة الدراسة، والمشاريع العملية.",
+        "رائع! إليك خطة عملية للمرحلة المتوسطة لتقوية مهاراتك."
+      ]
+    },
+    {
+      "tag": "level_advanced",
+      "patterns": ["I am advanced", "My level is advanced", "Advanced", "I have strong DL skills", "I want advanced roadmap", "أنا متقدم", "مستواي متقدم", "أريد خطة متقدمة"],
+      "responses": [
+        "Excellent! I will give you a detailed Advanced roadmap with topics, projects, and improvement tips.",
+        "Great! Let's work on advancing your skills with a comprehensive plan.",
+        "Perfect! I have an advanced step-by-step roadmap for you.",
+        "ممتاز! سأعطيك خطة مفصلة للمستوى المتقدم تشمل الموضوعات، المشاريع، ونصائح التحسين.",
+        "رائع! إليك خطوات عملية لتقوية مهاراتك في المرحلة المتقدمة."
+      ]
+    },
+    {
+      "tag": "ask_projects",
+      "patterns": ["What projects should I do?", "Suggest projects", "I want project ideas", "ما هي المشاريع التي يجب أن أقوم بها؟", "اقترح لي مشاريع", "أريد أفكار مشاريع"],
+      "responses": [
+        "I can suggest projects based on your current level.",
+        "Sure! I have a list of projects suitable for your level.",
+        "Let's pick some hands-on projects that match your skills.",
+        "يمكنني اقتراح مشاريع بناءً على مستواك الحالي.",
+        "هيا نختار مشاريع عملية تتناسب مع مستواك."
+      ]
+    },
+    {
+      "tag": "ask_resources",
+      "patterns": ["Suggest resources", "Learning materials", "Where to learn?", "ما هي الموارد التي أنصح بها؟", "اقترح لي مواد تعليمية", "أين أتعلم؟"],
+      "responses": [
+        "I can provide recommended resources for your level.",
+        "Sure! I have a list of learning materials suitable for you.",
+        "Let's find some quality courses, tutorials, and books for your journey.",
+        "يمكنني تزويدك بالموارد الموصى بها حسب مستواك.",
+        "هيا نبحث عن دورات وكتب ومواد تعليمية مناسبة لك."
+      ]
+    },
+    {
+      "tag": "repeat",
+      "patterns": ["Can you repeat that?", "Repeat please", "أعد ذلك من فضلك", "هل يمكنك إعادة ذلك؟"],
+      "responses": [
+        "Sure, I will repeat the roadmap step by step.",
+        "No problem! Here's the roadmap again from the beginning.",
+        "Absolutely! Let me guide you through it once more.",
+        "بالطبع، سأعيد الخطة خطوة بخطوة.",
+        "لا مشكلة! إليك الخطة مرة أخرى من البداية."
+      ]
+    },
+    {
+      "tag": "followup_advice",
+      "patterns": ["Any advice?", "How to improve?", "كيف أحسن نفسي؟", "هل لديك نصائح إضافية؟"],
+      "responses": [
+        "I can provide tips to consolidate your knowledge or improve before moving to the next level.",
+        "Here are some strategies to strengthen your skills at this stage.",
+        "Let's focus on ways to enhance your learning and apply it in projects.",
+        "يمكنني تزويدك بنصائح لتقوية مهاراتك قبل الانتقال للمرحلة التالية.",
+        "إليك بعض الاستراتيجيات لتعزيز مهاراتك الحالية وتطبيقها في المشاريع."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I don't have information about that. Can you ask differently?",
+        "Hmm, I don't know about that. Let's focus on your AI learning roadmap.",
+        "I'm not sure I understand. Could you rephrase your question?",
+        "عذراً، لا أملك معلومات عن هذا الموضوع. هل يمكنك إعادة صياغة السؤال؟",
+        "لم أفهم ما قصدت، لنركز على خطة تعلمك في الذكاء الاصطناعي."
+      ]
+    }
+  ]
+}
